@@ -1,0 +1,42 @@
+[
+  {
+    "name": "First Student",
+    "scores": [3, 4, 4, 5, 4, 4, 3, 5, 5, 5]
+  },
+  {
+    "name": "Second Student",
+    "scores": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  },
+  {
+    "name": "Third Student",
+    "scores": [5, 4, 4, 5, 4, 4, 3, 5, 5, 5]
+  },
+  {
+    "name": "Fourth Student",
+    "scores": [4, 4, 4, 5, 4, 4, 4, 5, 5, 5]
+  },
+  {
+    "name": "Fifth Student",
+    "scores": [4, 4, 5, 5, 4, 5, 3, 5, 5, 5]
+  },
+  {
+    "name": "Sixth Student",
+    "scores": [5, 4, 5, 5, 4, 5, 3, 5, 5, 5]
+  },
+  {
+    "name": "Seventh Student",
+    "scores": [3, 4, 4, 5, 4, 4, 3, 5, 5, 5]
+  },
+  {
+    "name": "Eighth Student",
+    "scores": [4, 4, 4, 5, 4, 4, 4, 5, 5, 5]
+  },
+  {
+    "name": "Ninth Student",
+    "scores": [5, 4, 4, 5, 4, 4, 4, 5, 4, 4]
+  },
+  {
+    "name": "Tenth Student",
+    "scores": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  }
+]
