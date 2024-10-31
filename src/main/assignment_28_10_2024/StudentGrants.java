@@ -6,9 +6,46 @@ import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+import java.util.Scanner;
 
 public class StudentGrants {
-    private static void calculateGrants(List<Student> students) {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        byte number = scanner.nextByte();
+        byte l = 1;
+        float average = 0;
+        for (int i = 0; i < number; i++) {
+            byte input = (byte) (scanner.nextByte() * l);
+            average += input;
+            if (input == 3) {
+                average *= 0;
+                l = 0;
+            }
+        }
+        average /= number;
+        if (average == 0) {
+            System.out.println("None");
+        }
+        if (average == 5) {
+            System.out.println("Named");
+        }
+        if (average >= 4.5 & average < 5) {
+            System.out.println("High");
+        }
+        if (average < 4.5 && average != 0){
+            System.out.println("Common");
+        }
+    }
+}
+/* try (FileReader input = new FileReader("data/students_score.json")) {
+            Gson gson = new Gson();
+            List<Student> students = gson.fromJson(input, new TypeToken<List<Student>>(){}.getType());
+            calculateGrants(students);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+
+    /*private static void calculateGrants(List<Student> students) {
         for (Student student : students) {
             String status = "";
             double averageScore = 0;
@@ -36,15 +73,4 @@ public class StudentGrants {
             }
             System.out.println(student.toString() + "\nGrant status: " + status);
         }
-    }
-
-    public static void main(String[] args) {
-        try (FileReader input = new FileReader("data/students_score.json")) {
-            Gson gson = new Gson();
-            List<Student> students = gson.fromJson(input, new TypeToken<List<Student>>(){}.getType());
-            calculateGrants(students);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-}
+    }*/

@@ -1,0 +1,73 @@
+register user1 pass123
+register user2 pass456
+register user3 pass789
+register user1 pass321
+login user1 pass123
+login user1 pass123
+login user2 pass000
+login user4 pass999
+logout user1
+logout user1
+register user4 pass999
+login user4 pass999
+logout user2
+register user5 pass555
+register user6 pass666
+register user7 pass777
+login user5 pass555
+login user6 pass123
+login user6 pass666
+login user7 pass777
+logout user5
+logout user6
+logout user7
+register user8 pass888
+login user8 pass888
+logout user8
+register user9 pass999
+login user9 pass123
+login user9 pass999
+logout user9
+register user10 pass000
+register user1 pass123
+register user11 pass111
+register user12 pass222
+register user13 pass333
+register user14 pass444
+register user15 pass555
+login user10 pass000
+login user11 pass111
+login user12 pass222
+login user13 pass333
+login user14 pass444
+login user15 pass555
+logout user10
+logout user11
+logout user12
+logout user13
+logout user14
+logout user15
+login user5 pass555
+login user5 pass555
+logout user5
+register user16 pass616
+register user17 pass717
+register user18 pass818
+login user16 pass616
+login user17 pass717
+login user18 pass818
+register user19 pass919
+register user20 pass020
+login user19 pass919
+login user20 pass020
+logout user16
+logout user17
+logout user18
+logout user19
+logout user20
+register user21 pass021
+register user22 pass022
+login user21 pass021
+login user22 pass022
+logout user21
+logout user22
